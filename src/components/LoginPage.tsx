@@ -14,7 +14,7 @@ const LoginPage = () => {
 
   return (
     <div className="min-h-screen flex">
-      {/* Left Side - 50% with purple background */}
+    
       <div className="hidden lg:flex lg:w-1/2 bg-[#F8EAFF] flex-col p-8 lg:p-8">
         <div className="mb-12">
           <img src="/team-achieve.png" alt="Team Achieve" className="h-16 w-auto md:h-20" />
@@ -39,9 +39,9 @@ const LoginPage = () => {
         </div>
       </div>
 
-      {/* Right Side - 50% with light gray background */}
+     
       <div className="w-full lg:w-1/2 bg-[#FCFCFC] flex flex-col">
-        {/* Mobile Logo */}
+       
         <div className="lg:hidden flex items-center justify-center  pt-12 px-8 ">
         <img src="/team-achieve.png" alt="Team Achieve" className="h-20 w-auto md:h-20 " />
         </div>
@@ -59,7 +59,7 @@ const LoginPage = () => {
             </div>
 
             <div className="space-y-6">
-              {/* Email Field */}
+           
               <div>
                 <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
                   Email Address <span className="text-red-500">*</span>
@@ -74,7 +74,7 @@ const LoginPage = () => {
                 />
               </div>
 
-              {/* Password Field */}
+             
               <div>
                 <label htmlFor="password" className="block text-gray-700 font-medium mb-2">
                   Password <span className="text-red-500">*</span>
@@ -115,7 +115,7 @@ const LoginPage = () => {
                 </a>
               </div>
 
-              {/* Sign In Button */}
+            
               <button
                 onClick={handleSubmit}
                 className="w-full bg-purple-900 hover:bg-purple-800 text-white font-semibold py-3 rounded-lg transition duration-200"
@@ -123,7 +123,7 @@ const LoginPage = () => {
                 Sign in
               </button>
 
-              {/* Sign Up Link */}
+            
               <p className="text-center text-gray-600">
                 Don't have an account?{' '}
                 <a href="#" className="text-purple-900 hover:text-purple-900 font-semibold transition">
